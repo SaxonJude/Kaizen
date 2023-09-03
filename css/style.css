@@ -168,6 +168,12 @@ ul li {
     border: none;
 }
 
+.active {
+    background-color: #353537;
+    color: #957aff;
+    border: none;
+}
+
 .links p {
     margin: 0;
     padding: 0;
