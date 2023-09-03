@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 1px solid teal; */
 }
 
 .todolist_container,
@@ -15,12 +16,12 @@
 
 .todolist_container {
     /* border: 1px solid red; */
-    width: 37%;
+    width: 38%;
 }
 
 .pictures_container {
     /* border: 1px solid blue; */
-    width: 57%;
+    width: 58%;
 }
 
 .todolist,

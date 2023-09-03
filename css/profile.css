@@ -1,0 +1,103 @@
+.profile_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid teal; */
+}
+
+.profile_container {
+    /* border: 1px solid red; */
+    width: 38%;
+}
+
+.profile_container,
+.chart_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.chart_container {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: flex-end;
+    width: 58%;
+}
+
+.profile,
+.chart {
+    /* border: 1px solid green; */
+    background-color: #353537;
+    border-radius: 20px;
+    height: 85%;
+    width: 100%;
+    margin-bottom: 3rem;
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.profile {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_name {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.profile_info {
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 200px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.profile_info div {
+    margin: .5rem 0;
+}
+
+.profile p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.profile_button {
+    margin-bottom: 2rem;
+    height: 50px;
+    width: 70%;
+    border: none;
+    background-color: #957aff;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.profile_button:hover {
+    cursor: pointer;
+    background-color: #ffffff00;
+    color: #957aff;
+    border: 1px solid #957aff;
+}
